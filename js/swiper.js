@@ -19,7 +19,6 @@ new Swiper('.swiper', {
         sensitivity: 1,
     },
 
-    // slidesPerView: 'auto',
     watchOverflow: true,
 
     spaceBetween: 17,
@@ -31,7 +30,7 @@ new Swiper('.swiper', {
             slidesPerView: 1,
         },
         480: {
-            slidesPerView: 3,
+            slidesPerView: 'auto',
         },
         992: {
             slidesPerView: 'auto',

@@ -5,16 +5,17 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-    <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;900&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" href="img/logo.ico">
     <title>Plerdy</title>
@@ -53,7 +54,7 @@
         </div>
         <div class="header__button">
             <button>Sing In</button>
-            <button>Contact sales</button>
+            <button class="btn__blue header__btn">Contact sales</button>
         </div>
     </header>
 
@@ -62,44 +63,57 @@
         <!--    about-->
         <section class="about">
             <div class="about__left">
-                <div class="about__title">
-                    <h1>How to do a Website Audit to Improve SEO & Conversions</h1>
-                </div>
-                <div class="about__text">
-                    <p>
-                        Usability auditing with the Plerdy tool is a comprehensive expert assessment of your website
-                        based
-                        on a profound study of user behavior registered on it. Plerdy will provide you with crucial data
-                        based on which you will be able to run an efficient usability audit of your website, identify
-                        and
-                        fix SEO issues, and subsequently lead it to higher positions in search.
-                    </p>
-                    <p>
-                        Thus, you'll compile a list of flaws in your website interface, navigation, and conversion path
-                        that can eventually affect its micro and macro conversion rates.
-                    </p>
-                </div>
-                <div class="about__btn">
-                    <button>
-                        Run the Plerdy tool
-                    </button>
+                <div class="about__description">
+                    <div class="about__title">
+                        <h1>How to do a Website Audit to Improve SEO & Conversions</h1>
+                    </div>
+                    <div class="about__text">
+                        <p>
+                            Usability auditing with the Plerdy tool is a comprehensive expert assessment of your website
+                            based
+                            on a profound study of user behavior registered on it. Plerdy will provide you with crucial data
+                            based on which you will be able to run an efficient usability audit of your website, identify
+                            and
+                            fix SEO issues, and subsequently lead it to higher positions in search.
+                        </p>
+                        <p>
+                            Thus, you'll compile a list of flaws in your website interface, navigation, and conversion path
+                            that can eventually affect its micro and macro conversion rates.
+                        </p>
+                    </div>
+                    <div class="about__btn">
+                        <button class="btn__blue page__btn">
+                            Run the Plerdy tool
+                        </button>
+                    </div>
                 </div>
                 <div class="about__trust">
                     <p>
                         Trusted by some of the world's largest enterprises
                     </p>
-                    <div>
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                    <div class="about__trust-image">
+                        <div>
+                            <img src="img/trust-01.png" alt="company">
+                        </div>
+                        <div>
+                            <img src="img/trust-02.png" alt="company">
+                        </div>
+                        <div>
+                            <img src="img/trust-03.png" alt="company">
+                        </div>
+                        <div>
+                            <img src="img/trust-04.png" alt="company">
+                        </div>
+                        <div>
+                            <img src="img/trust-05.png" alt="company">
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="about__right">
                 <div class="about__img">
-                    <div>
-                        <img src="" alt="">
+                    <div class="about__img-image">
+                        <img src="img/about-woman.png" alt="woman">
                     </div>
                     <img src="" alt="">
                     <img src="" alt="">
@@ -113,7 +127,7 @@
             <div class="reasons__head">
                 <div class="reasons__title">
                     <h2>
-                        6 Reasons to Use Plerdy Data for a Website Usability Audit
+                        6 Reasons <span>to Use Plerdy Data for a Website Usability Audit</span>
                     </h2>
                 </div>
                 <div class="reasons__arrow">
@@ -208,8 +222,9 @@
 
                 </div>
             </div>
-            <div class="reason__foot">
-                <button>
+
+            <footer class="reason__foot">
+                <button class="btn__blue page__btn">
                     Boost my website conversion
                 </button>
                 <p>
@@ -217,7 +232,7 @@
                     website
                     users’ behavior patterns and needs.
                 </p>
-            </div>
+            </footer>
         </section>
     </main>
 </div>

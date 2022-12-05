@@ -189,6 +189,7 @@
 .iti__country-list {
     min-width: 320px;
     max-width: 325px;
+    max-height: 170px;
     z-index: 20;
 }
 .iti-mobile .iti__country-list {

@@ -165,7 +165,20 @@ body.overflow {
     position: absolute;
     width: 60%;
     z-index: 1;
+    animation: loadSchedule 1.5s ease-in-out;
 }
+@keyframes loadSchedule {
+    from {
+        opacity: 0;
+        rotate: 180deg;
+    }
+    to {
+        opacity: 1;
+        rotate: 0deg;
+    }
+}
+
+
 .about__img-schedule-first {
     top: -10%;
     left: -20%;

@@ -15,7 +15,7 @@
     height: 370px;
     border-radius: 10px;
     font-size: 50px;
-    background: #F8F8FA url('/img/icons/ellipse.png') bottom right no-repeat;
+    background: #F8F8FA url('../img/icons/ellipse.png') bottom right no-repeat;
     padding: 20px;
     position: relative;
 }

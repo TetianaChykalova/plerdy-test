@@ -255,6 +255,18 @@ body.overflow {
     }
 }
 @media (max-width: 992px) {
+    .header .header__logo {
+        height: 25px;
+    }
+    .header .header__logo h2 {
+        font-size: 26px;
+    }
+    .header__menu ul li {
+        margin: 0 15px 0 0;
+    }
+    .header__button button:first-child {
+        margin: 0 8px 0 0;
+    }
     .reason__foot {
         flex-direction: column;
         align-items: center;

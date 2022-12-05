@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/popup.css">
@@ -261,25 +262,31 @@
                 </h2>
                 <p class="popup__right-description">You will get an SMS with a link to the webinar</p>
                 <form action="#" class="popup__form">
-                    <div>
-                        <label for="popup-name">Name</label>
+                    <div class="popup__form-div req">
+                        <div class="popup__form-descript">
+                            <label for="popup-name">Name</label>
+                            <span class="err-span">- Error</span>
+                        </div>
                         <input id="popup-name" type="text" value="" placeholder="Boris Johnson">
                     </div>
-                    <div>
-                        <label for="popup-tel">Label</label>
-                        <input id="popup-tel" type="tel" value="" placeholder="XX XXX XXXX">
+                    <div class="popup__form-div popup__form-tel req">
+                        <div class="popup__form-descript">
+                            <label for="popup-tel">Label</label>
+                            <span class="err-span">- Error</span>
+                        </div>
+                        <input id="popup-tel" type="tel" name="phone" value="" placeholder="XX XXX XXXX">
                     </div>
-                    <div class="popup__form-btns">
-                        <button class="popup__form-btn popup__btn-support">
+                    <div class="popup__form-btns popup__form-div">
+                        <button type="button" class="popup__form-btn popup__btn-support">
                             Support
                         </button>
-                        <button class="popup__form-btn popup__btn-sale">
+                        <button type="submit" class="popup__form-btn popup__btn-sale">
                             Contact sales
                         </button>
                     </div>
 
-                    <div class="popup__form-check">
-                        <input type="checkbox" id="popup-check">
+                    <div class="popup__form-check popup__form-div">
+                        <input type="checkbox" id="popup-check" required>
                         <label for="popup-check">By sending up? you agree to our <a href="#">Conditions</a> and <a
                                 href="#">Private Policy</a></label>
                     </div>
@@ -295,6 +302,7 @@
 </div>
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="js/swiper.js"></script>
 <script src="js/popup.js"></script>

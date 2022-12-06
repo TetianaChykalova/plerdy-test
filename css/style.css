@@ -399,8 +399,9 @@ body.overflow {
         display: flex;
         flex-direction: column;
     }
-    .header__button button {
+    .header__button button:first-child {
         margin: 0 0 10px 0;
+        text-align: right;
     }
 
     .about {
